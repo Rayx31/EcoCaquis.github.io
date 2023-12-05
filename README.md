@@ -69,7 +69,7 @@
         </div>
 
         <div class="producto">
-            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3.abcstatics.com%2Fmedia%2Fbienestar%2F2019%2F10%2F07%2Fcaquis-U303043057595VHH--1248x698%40abc.jpg&tbnid=dRFTAScnvG68WM&vet=12ahUKEwjh9v7VkvmCAxXxU6QEHY_bAwUQMygQegUIARCaAQ..i&imgrefurl=https%3A%2F%2Fwww.abc.es%2Fbienestar%2Falimentacion%2Frecetas-saludables%2Fabci-esto-aclara-mejor-para-comer-caquis-201911030312_noticia.html&docid=LkIir2SxqpHDzM&w=1248&h=698&q=caquis&ved=2ahUKEwjh9v7VkvmCAxXxU6QEHY_bAwUQMygQegUIARCaAQ" alt="Caqui 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cVpnuG5LNlx2hKQtFbDNECkl7mnjjLjhRA&usqp=CAU" alt="Caqui 2">
             <h2>Caqui Ecologico</h2>
             <p>Caqui cultivado de forma orgánica y sostenible.</p>
             <p>Precio: $7.99/kg</p>
