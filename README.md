@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -56,20 +54,20 @@
 <body>
 
     <header>
-        <img id="EcoCaquis" src="c:\Users\alexs\Downloads\Captura_de_pantalla_2023-12-05_131946-fotor-bg-remover-2023120518412.png" alt="Logo de la Tienda de Caquis">
+        <img id="EcoCaquis" src="![caquiNoeco](https://github.com/Rayx31/EcoCaquis.github.io/assets/149010243/3b7fb1e0-2f76-4e7a-8403-8f0bedb32b9d)" alt="Logo de la Tienda de Caquis">
         <h1>EcoCaquis</h1>
     </header>
 
     <main>
         <div class="producto">
-            <img src="c:\Users\alexs\Downloads\caquiNoeco.jpeg" alt="Caqui 1">
+            <img src="" alt="Caqui 1">
             <h2>Caqui no ecologico</h2>
             <p>Caqui madurado al sol, de alta calidad.</p>
             <p>Precio: $5.99/kg</p>
         </div>
 
         <div class="producto">
-            <img src="c:\Users\alexs\Downloads\caquiEco.jpeg" alt="Caqui 2">
+            <img src="![caquiEco](https://github.com/Rayx31/EcoCaquis.github.io/assets/149010243/dd0df1b6-71f6-4771-909d-fdc3f3c15b9d)" alt="Caqui 2">
             <h2>Caqui Ecologico</h2>
             <p>Caqui cultivado de forma orgánica y sostenible.</p>
             <p>Precio: $7.99/kg</p>
@@ -84,7 +82,7 @@
                 <li>Cuidado constante, incluyendo riego y protección contra plagas.</li>
                 <li>Maduración natural al sol para obtener el mejor sabor.</li>
             </ol>
-            <img src="c:\Users\alexs\Downloads\images.jpeg" alt="Proceso de Cultivo de Caquis">
+            <img src="![images](https://github.com/Rayx31/EcoCaquis.github.io/assets/149010243/da188841-5275-4bd5-901d-02082930af5e)">
         </div>
     </main>
 
