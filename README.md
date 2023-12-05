@@ -54,7 +54,7 @@
 <body>
 
     <header>
-        <img id="EcoCaquis" src="![caquiNoeco](https://github.com/Rayx31/EcoCaquis.github.io/assets/149010243/3b7fb1e0-2f76-4e7a-8403-8f0bedb32b9d)" alt="Logo de la Tienda de Caquis">
+        <img id="EcoCaquis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cVpnuG5LNlx2hKQtFbDNECkl7mnjjLjhRA&usqp=CAU" alt="Logo de la Tienda de Caquis">
         <h1>EcoCaquis</h1>
     </header>
 
