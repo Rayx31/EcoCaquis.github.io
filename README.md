@@ -13,12 +13,12 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: rgb(243, 142, 9);
+            background-color: rgb(255, 125, 125);
             text-align: center;
         }
 
         header {
-            background-color: #f06262;
+            background-color: #ec8686;
             color: white;
             padding: 1em;
         }
@@ -33,10 +33,10 @@
         }
 
         .producto {
-            border: 1px solid #f33d10;
+            border: 1px solid #fd9e87;
             padding: 10px;
             margin: 10px;
-            background-color: #f33d10;
+            background-color: #ff9a81;
         }
 
         .producto img {
@@ -46,8 +46,8 @@
         }
 
         footer {
-            background-color:rgb(243, 142, 9);
-            color: rgb(243, 142, 9);
+            background-color:rgb(253, 192, 112);
+            color: rgb(255, 200, 128);
             text-align: center;
             padding: 1em;
         }
