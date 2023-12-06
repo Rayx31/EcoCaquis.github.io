@@ -18,7 +18,7 @@
         }
 
         header {
-            background-color: #ec8686;
+            background-color: rgb(255, 125, 125);
             color: white;
             padding: 1em;
         }
@@ -46,7 +46,7 @@
         }
 
         footer {
-            background-color:rgb(253, 192, 112);
+            background-color:rgb(255, 125, 125);
             color: rgb(255, 200, 128);
             text-align: center;
             padding: 1em;
