@@ -1,9 +1,7 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco Caquis</title>
@@ -66,6 +64,13 @@
             <h2>Caqui no ecològic</h2>
             <p>Caqui madurat al sol, d´alta qualitat.</p>
             <p>Preu: €5.99/kg</p>
+            <button onclick="buttonClick()">Comprar</button>
+            <script>
+                function buttonClick() {
+                 alert("Gràcies per la seva compra!");
+                }
+                </script>
+
         </div>
 
         <div class="producto">
@@ -73,6 +78,12 @@
             <h2>Caqui ecològic</h2>
             <p>Caqui cultivat de forma orgànica i sostenible.</p>
             <p>Preu: €7.99/kg</p>
+            <button onclick="buttonClick()">Comprar</button>
+            <script>
+                function buttonClick() {
+                 alert("Gràcies per la seva compra!");
+                }
+                </script>
         </div>
 
         <div class="seccion">
@@ -91,7 +102,7 @@
     <footer>
         <p>&copy; 2023 EcoCaquis</p>
     </footer>
- 
+
 </main>
 </body>
 </html> 
