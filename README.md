@@ -64,12 +64,8 @@
             <h2>Caqui no ecològic</h2>
             <p>Caqui madurat al sol, d´alta qualitat.</p>
             <p>Preu: €5.99/kg</p>
-            <button onclick="buttonClick()">Comprar</button>
-            <script>
-                function buttonClick() {
-                 alert("Gràcies per la seva compra!");
-                }
-                </script>
+            <li><a href="Pagina%20de%20pago.html">Comprar</a></li>
+        
 
         </div>
 
@@ -78,12 +74,9 @@
             <h2>Caqui ecològic</h2>
             <p>Caqui cultivat de forma orgànica i sostenible.</p>
             <p>Preu: €7.99/kg</p>
-            <button onclick="buttonClick()">Comprar</button>
-            <script>
-                function buttonClick() {
-                 alert("Gràcies per la seva compra!");
-                }
-                </script>
+            <li><a href="Pagina%20de%20pago.html">Comprar</a></li>
+            
+            
         </div>
 
         <div class="seccion">
