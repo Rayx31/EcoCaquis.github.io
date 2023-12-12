@@ -1,18 +1,94 @@
-<html>
-	<head>
-		<title>Pagina de pago</title>
-	</head>
-	<body>
-        
 
-        <div 
-        background-size: width height;  
+    <!DOCTYPE html>
 
-        background-size: 100px 200px; 
- 
-        background-size: 150% auto; 
-        style="text-align: center;">
-        <img src="https://i.ytimg.com/vi/DX8akmchM7I/maxresdefault.jpg" alt="Caqui 11">
-    </div>
-	</body>
-</html>
+
+    <html>
+    <head>
+        <title>Pagina de pago</title>
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(255, 125, 125);
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(255, 125, 125);
+            color: white;
+            padding: 1em;
+        }
+
+        #logo {
+            max-width: 150px;
+            max-height: 150px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .producto {
+            border: 1px solid #fd9e87;
+            padding: 10px;
+            margin: 10px;
+            background-color: #ff9a81;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color:rgb(255, 125, 125);
+            color: rgb(255, 200, 128);
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+        <script>
+            function procesarPago() {
+                var nombre = document.getElementById("nombre").value;
+                var tarjeta = document.getElementById("tarjeta").value;
+                var monto = document.getElementById("monto").value;
+    
+                if(nombre === "" || tarjeta === "" || monto === "") {
+                    alert("Todos los campos son obligatorios.");
+                    return;
+                }
+    
+                // Aquí puedes enviar los datos al servidor y procesar el pago.
+                // Por ejemplo, puedes enviar una solicitud HTTP a un servidor de tu elección.
+    
+                alert("Pago procesado exitosamente.");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Formulario de pago</h1>
+        <form>
+            <label for="nombre">Nombre del titular:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="tarjeta">Número de tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" required>
+            <br>
+            <label for="monto">Monto a pagar:</label>
+            <input type="number" id="monto" name="monto" min="0" step="0.01" required>
+            <br>
+            <button type="button" onclick="procesarPago()">Procesar pago</button>
+        </form>
+    </body>
+    </html>
+    
