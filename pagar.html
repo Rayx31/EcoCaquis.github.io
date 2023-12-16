@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:darkgrey  ;
+        }
+
+        .formulario {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .formulario label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .formulario input, .formulario select {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .formulario button {
+            background-color: #000000;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .formulario button:hover {
+            background-color: #9b9b9b;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <form class="formulario">
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="codigo-postal">Código postal</label>
+        <input type="text" id="codigo-postal" name="codigo-postal" required>
+
+        <label for="pais">Pais / Región</label>
+        <select id="pais" name="pais">
+            <option value="España">España</option>
+            <option value="Estados unidos">Estados unidos</option>
+            <option value="China">China</option>
+            <option value="Italia">Italia</option>
+        </select>
+
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="tarjeta">Número de tarjeta</label>
+        <input type="text" id="tarjeta" name="tarjeta" required>
+
+        <label for="mes">Fecha de vencimiento (MM/AA)</label>
+        <input type="text" id="mes" name="mes" required>
+
+        <label for="año">Codigo de seguridad</label>
+        <input type="text" id="año" name="año" required>
+
+        <label for="nombre-titular">Nombre del titular</label>
+        <input type="text" id="nombre-titular" name="nombre-titular" required>
+
+        <label for="apellidos-titular">Apellidos</label>
+        <input type="text" id="apellidos-titular" name="apellidos-titular" required>
+
+        <button type="submit">Pagar ahora</button>
+    </form>
+</body>
+</html>
